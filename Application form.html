@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>COMSMEG</title>
+  </head>
+  <body>
+    <h1>JOB APPLICATION FORM</h1>
+    <img src="download.png" alt="" width="400px" height="100px" />
+    <br />
+
+    <p><b>You are required to fiil in this form</b></p>
+
+    <form action="" method="POST" enctype="">
+      <label for="Full name"> Name </label>
+      <input
+        type="text"
+        id="Full name"
+        name="Full name"
+        placeholder="full name"
+        required
+      />
+      <br /><br />
+
+      <label for="email">Email</label>
+      <input
+        type="email"
+        id="email"
+        name="email address"
+        placeholder="abcdefgh@gmai.com"
+        required
+      />
+      <br /><br />
+
+      <label for="password">Password</label>
+      <input
+        type="password"
+        id="password"
+        name="password"
+        required
+        min="6"
+        max="15"
+        placeholder="Use letters and numbers"
+      />
+      <br /><br />
+
+      <label for="phone no.">Telephone</label>
+      <input type="tel" id="phone no." name="Telephone number" required />
+      <br /><br />
+
+      <label for="birth date">Date of birth</label>
+      <input type="date" id="birth date" name="Date of birth" required />
+      <br /><br />
+
+      <p><b>Please select position</b></p>
+      <select name="selected course" id="course">
+        <option value=""></option>
+        <option value="resource manager">Resource manager</option>
+        <option value="cyber analyst">Cyber analyst</option>
+        <option value="Graphic designer">Graphic designer</option>
+        <option value="Project manager">Project manager</option>
+      </select>
+      <br /><br />
+
+      <p><b>How available are you !</b></p>
+
+      <input type="radio" name="Availability" id="fulltime" value="fulltime" />
+      <label for="fulltime">Full time</label>
+      <br />
+
+      <input
+        type="radio"
+        name="Availability"
+        id="part time"
+        value="part time"
+      />
+      <label for="part time">Part time</label>
+      <br /><br />
+
+      <p><b>Your proficient Programming Language </b></p>
+
+      <input type="checkbox" id="lang 1" name="lang 1" value="CSS" />
+      <label for="lang 1">CSS</label>
+      <br />
+
+      <input type="checkbox" id="Lang 2" name="Lang 2" value="js" />
+      <label for="Lang 2">Javascript</label>
+      <br />
+
+      <input type="checkbox" id="Lang 3" name="Lang 3" value="Ruby" />
+      <label for="Lang 3">Ruby</label>
+      <br />
+
+      <input type="checkbox" id="Lang4" name="Lang4" value="Python" />
+      <label for="Lang4">Python</label>
+      <br />
+      <br />
+
+      <input type="file" />
+      <br /><br />
+
+      <textarea
+        name="text"
+        id="comment"
+        placeholder="Additional comments"
+      ></textarea>
+      <br /><br />
+      <button type="submit">SUBMIT ME</button>
+      <button type="reset">RESET DETAILS</button>
+    </form>
+  </body>
+</html>
